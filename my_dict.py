@@ -47,7 +47,7 @@ class MyDict:
         return new_dict
 
 
-if name == "__main__":
+if __name__ == "__main__":
     d = MyDict()
     d.set("apple", 10)
     d.set("banana", 20)
